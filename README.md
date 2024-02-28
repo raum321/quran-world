@@ -6,7 +6,7 @@ Rewayas included:
 - Hafs 'an Asim
 - Shouba 'an Asim
 - Bazzi 'an Ibn Kathir</a>
-- Qumbul 'an Ibn Kathir 
+- Qunbul 'an Ibn Kathir 
 - Doori 'an Abu ‘Amr Al-Basree</a>
 - Soosi 'an Abu ‘Amr Al-Basree</a>
         
