@@ -82,10 +82,12 @@ body {
 
 .all-rewayas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     text-align: center;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 .qari {
