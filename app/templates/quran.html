@@ -6,7 +6,7 @@
             {% if aya["aya_no"] == 1 %}
                 {% if aya["sura_name_en"] != "Al-Fātiḥah" %}<hr>{% endif %}
 
-                <center><surah-name>سُورَة {{ aya["sura_name_ar"] }}</surah-name></center>
+                <center><surah-name id="{{ aya['sura_name_en'] }}">سُورَة {{ aya["sura_name_ar"] }}</surah-name></center>
 
                 {% if aya["sura_name_en"] != "At-Taubah" %}
                     {% if aya["aya_text"] != "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ ١" %}
@@ -26,4 +26,10 @@
 
 {% block current_rewayah %}
     {{ rewayah }}
+{% endblock %}
+
+{% block sura_dropdown %}
+    {% for surah in suras %}
+        <a class="dropdown-item" href="#{{ surah }}">{{ surah }}</a>
+    {% endfor %}
 {% endblock %}
