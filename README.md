@@ -1,4 +1,4 @@
-# The Holy Quran in 8 Rewayas
+# The Holy Quran in 8 Rewayas (Flask App)
 
 Rewayas included:
 - Qaloon 'an Nafi'
