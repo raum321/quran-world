@@ -23,7 +23,7 @@ rewayah_map = {
     }
 
 def parse_quran(rewayah: str):
-    with open(f'quran_data/{rewayah_map[rewayah]}') as file:
+    with open(f'/home/quranworld/quran-world/app/quran_data/{rewayah_map[rewayah]}') as file:
         data = json.load(file)
 
         return data
