@@ -1,6 +1,6 @@
 # The Holy Quran in 8 Rewayas (Flask App)
 
-**Live Website:** https://quranworld.pythonanywhere.com/qaloon
+**Live Website:** https://quranworld.pythonanywhere.com/
 
 Rewayas included:
 - Qaloon 'an Nafi'
