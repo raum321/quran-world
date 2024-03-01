@@ -26,7 +26,7 @@ def parse_quran(rewayah: str, server_access: bool):
     if server_access:
         directory = '/home/quranworld/quran-world/app/quran_data/'
     else: 
-        directory = '/quran_data/'
+        directory = '/Users/temporary/home/quran-world/app/quran_data/'
     
     with open(f'{directory}{rewayah_map[rewayah]}') as file:
         data = json.load(file)
