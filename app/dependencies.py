@@ -22,8 +22,13 @@ rewayah_map = {
         'warsh': 'Warsh.json'
     }
 
-def parse_quran(rewayah: str):
-    with open(f'/home/quranworld/quran-world/app/quran_data/{rewayah_map[rewayah]}') as file:
+def parse_quran(rewayah: str, server_access: bool):
+    if server_access:
+        directory = '/home/quranworld/quran-world/app/quran_data/'
+    else: 
+        directory = '/quran_data/'
+    
+    with open(f'{directory}{rewayah_map[rewayah]}') as file:
         data = json.load(file)
 
         return data

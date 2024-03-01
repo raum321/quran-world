@@ -9,7 +9,7 @@ def index():
 
 @app.route('/<rewayah>')
 def quran(rewayah):
-    quran = parse_quran(rewayah)
+    quran = parse_quran(rewayah, server_access=False)
     suras = return_suras(quran)
 
     return render_template('quran.html', quran=quran, suras= suras, rewayah=rewayah, font=font_map[rewayah])
