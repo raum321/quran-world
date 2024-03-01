@@ -15,4 +15,4 @@ Rewayas included:
 ## Sources:
 - Quran Data: [thetruetruth/quran-data-kfgqpc](https://github.com/thetruetruth/quran-data-kfgqpc)
 
-Rezza Mula, jazak Allah khairan (GitHub: thetruetruth) for compiling these rewayas into usable formats for this project. 
+Rezza Mula (GitHub: thetruetruth), jazak Allah khairan for compiling these rewayas into usable formats for this project. 
