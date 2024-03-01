@@ -2,7 +2,8 @@ import json
 
 font_map = {
     'hafs': 'hafs18',
-    'warsh': 'warsh10',
+    # 'warsh': 'warsh10',
+    'warsh': 'qaloon10',
     'shouba': 'shouba8',
     'qaloon': 'qaloon10',
     'doori': 'doori9',
